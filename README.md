@@ -1,5 +1,25 @@
 # Synoptic 2022 
 ![hi!](https://c.tenor.com/XO-D_kXtswQAAAAC/eren-rumbling-eren-yeager.gif)
+## Directory Explained
+
+ - `README.md` -> this markdown file 
+ - `.gitignore` -> a file of which files github will ignore when committing to the repository 
+ 
+ - `- public` -> client side code (frontend)
+	 - `- public` 
+	 
+		 - `index.html` -> html file React uses to embed itself into
+	 - `- src` -> source code for react components 
+		 - `- chatroom` -> chatroom React component & css#
+		 - `- home` -> homepage/landing page React component & css
+		 - `- rangerportal` -> ranger portal React component & css
+		- `usechat.js` -> code for the chatroom
+		- `app.js` -> React app
+		- `index.js` -> renders React app and links to index.html via root
+
+ - `- src` -> server side code (backend)
+	 - `index.js` -> for running the server and logging connections/disconnections and listening for message events
+
 
 ## Running
 
