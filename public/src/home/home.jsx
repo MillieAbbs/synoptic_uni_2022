@@ -1,15 +1,27 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./home.css";
+import NavBar from "./home components/NavBar";
+import HomeInfo from './home components/HomeInfo';
+import HomeButtons from "./home components/HomeButtons";
+
+import { Container } from "@mui/material";
+
+import '@fontsource/roboto';
+import Typography from '@material-ui/core/Typography';
+
 
 const Home = () => {
 
-	// give each user a unique room id
-	const roomName = Math.ceil(Math.random() * 999999);
-
 	return (
 		<div>
-			<h1>G'day Mate</h1>
-			<Link to={`/chat/${roomName}`}>Connect me!</Link>
+		<NavBar />
+		<div className="page">
+			<Container maxWidth="sm">
+				<Typography className="homeTitle" variant="h2">Cape York Help Desk</Typography>
+				<HomeInfo />
+			</Container>
+		<HomeButtons />
+		</div>
 		</div>
 	);
 };
