@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 function HomeInfo(){
     return(
         <div className='outer'>
-            <Typography className="info" variant='h5'>
+            <Typography className="info" variant='body1'>
                 The 'Cape York Help Desk' is for residents and tourists of Cape York
                 to contact our rangers for assistance. Our bot chat provides
                 answers to frequent queries, and our live chat allows quick
