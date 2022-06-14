@@ -28,10 +28,6 @@ app.get('/place/lat/:lat/long/:long/keyword/:keyword', (req, res) => {
         })
 })
 
-app.get('/test', (req, res) => {
-    res.send("hello world")
-})
-
 app.listen(port, () => {
     console.log(`Chat bot listening on ${port}`)
 })
