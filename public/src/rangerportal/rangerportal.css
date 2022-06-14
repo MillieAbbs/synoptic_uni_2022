@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+.page{
+    padding-top: 100px;
+    background-color: #CDC7E5;
+    height: 100vh
+}
+
+/*
+a{
+    color: #157145;
+    text-decoration: none;
+}
+
+
+.chatRoomLink{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9bd1e5;
+
+    
+}*/
+
+
+.homeTitle{
+    padding-top: 2rem;
+    color: 'black';
+    text-align: center;
+    
+}
