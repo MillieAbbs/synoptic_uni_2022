@@ -1,5 +1,5 @@
 import React from "react";
-
+import NavBar from "../home/home components/NavBar";
 import "./chatroom.css";
 import useChat from "../usechat";
 
@@ -19,6 +19,7 @@ const ChatRoom = (props) => {
 
   return (
     <div className="chat-room-container">
+      <NavBar />
       <div className="messages-container">
         <ol className="messages-list">
           {messages.map((message, i) => (

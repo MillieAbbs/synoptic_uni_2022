@@ -12,7 +12,7 @@
 }
 
 .messages-container {
-	
+	margin-top: 11vh;
     flex: 1;
     min-height: 100px;
     overflow: auto;
@@ -30,11 +30,12 @@
 
 .new-message-input-field {
 	
-    height: 200px;
+    height: 100px;
     max-height: 50%;
     font-size: 20px;
     padding: 8px 12px;
     resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 	
 }
 
@@ -68,7 +69,7 @@
     font-size: 28px;
     font-weight: 600;
     color: white;
-    background: #31a24c;
+    background: #F72585;
     padding: 24px 12px;
     border: none;
 	
