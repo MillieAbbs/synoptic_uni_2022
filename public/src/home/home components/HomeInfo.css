@@ -1,9 +1,6 @@
 /* home info text */
-.info {
-	
+.info{
     text-align: center;
-    margin: 0 auto;
-    padding-top: 3.5rem;
-    padding-bottom: 4rem;
-    
+    padding: 3.5rem 0.5rem 4rem 0.5rem;
+    font-size: 20%;
 }

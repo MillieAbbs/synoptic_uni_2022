@@ -1,13 +1,16 @@
 #outer{
-   text-align: center;
-}
-
-.button{
-    width: 12rem;
-    height: 8rem;
-    
-}
-
-.chatRoomLink{
-    color: white;
-}
+    text-align: center;
+ }
+ 
+ .button{
+     max-width: 20em;
+     width: 40vw;
+     height: 10vh;
+     min-height: 40px;
+     max-height: 100px;
+     
+ }
+ 
+ .chatRoomLink{
+     color: white;
+ }

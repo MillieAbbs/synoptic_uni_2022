@@ -6,17 +6,13 @@ html, body {
 }  
 
 .page {
-    
-    padding-top: 100px;
-    background-color: #CDC7E5;
-    height: 100vh
-        
+    background-color: #ffffff;
 }
 
-.homeTitle {
-    
-    padding-top: 2rem;
-    color: 'black';
-    text-align: center;
-    
+.Details{
+    margin: auto;
+    max-width: 20vw;
+    min-width: 200px;
+    border: 3px;
+    padding-top: 20vh;
 }

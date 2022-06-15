@@ -7,15 +7,20 @@ import "./NavBar.css";
 
 function NavBar() {
     return(
-    <div className='topnav'>        
-        <Link className="chatRoomLink"to={`/`}>
-            <Icon className="icon">
-                <img src={RangerGuy}  alt="icon" height={65} width={80} />
-            </Icon>
-        </Link>
-        <Link className="rangerLink" to={'/rangerportal'}>
-            <Button variant='contained'>Ranger Login</Button>
-        </Link>
+    <div className='topnav'>       
+        <Icon className="icon"
+            component={Link}
+            to={`/`}>
+            <img src={RangerGuy}  alt="icon" height={65} width={80} />
+        </Icon>
+
+        <Button
+            component={Link}
+            to={'/rangerportal'}
+            className="rangerLink"
+            variant='contained'>
+            Ranger Login
+        </Button>
     </div>
     );
 }
