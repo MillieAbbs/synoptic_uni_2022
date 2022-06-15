@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import './HomeButtons.css';
 import MessageIcon from '@material-ui/icons/Message';
 import BotIcon from '@material-ui/icons/Adb';
-import { ThemeProvider, createTheme } from '@material-ui/core/styles';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { deepPurple, pink } from '@mui/material/colors';
 import { ButtonGroup } from '@material-ui/core';
 
@@ -12,7 +12,7 @@ import { ButtonGroup } from '@material-ui/core';
 const theme = createTheme({
     palette: {
         primary:{
-            main: pink[500],
+            main: pink[400],
         },
         secondary:{
             main: deepPurple[500],
@@ -28,7 +28,7 @@ function HomeButtons(){
     return(
     <ThemeProvider theme={theme}>
     <div id='outer'>
-        <ButtonGroup color='secondary'>
+        <ButtonGroup color='primary'>
             <Button
             className='button'
             startIcon={<BotIcon />}
