@@ -1,5 +1,4 @@
 # Synoptic 2022 
-![hi!](https://c.tenor.com/XO-D_kXtswQAAAAC/eren-rumbling-eren-yeager.gif)
 ## Directory Explained
 
  - `README.md` -> this markdown file 
