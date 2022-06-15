@@ -35,8 +35,11 @@ function HomeButtons(){
             className='button'
             startIcon={<BotIcon />}
             size="large"
+            component={Link}
+            to={`/chatbot`}
             variant="contained">
             Need Info
+            
         </Button>
         <Button 
             className='button'
