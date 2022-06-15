@@ -28,9 +28,7 @@ function HomeButtons(){
     return(
     <ThemeProvider theme={theme}>
     <div id='outer'>
-        <ButtonGroup
-        color='secondary' 
-        variant='contained'>
+        <ButtonGroup color='secondary'>
             <Button
             className='button'
             startIcon={<BotIcon />}

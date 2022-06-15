@@ -9,7 +9,7 @@ const LocationGetter = (props) => {
   const [gmapsResponse, setGmapsResponse] = useState({
     results: [
       {
-        name: "",
+        name: "test",
       },
     ],
   });

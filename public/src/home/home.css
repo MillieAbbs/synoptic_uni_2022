@@ -1,12 +1,21 @@
-.page{
-    background-color: #ffffff;
+html, body {
+	
+    margin: 0;
+    padding: 0;
+
+}  
+
+.page {
+	
+    padding-top: 100px;
+    background-color: #FFFFFF;
+    height: 100vh;
 }
 
 .homeTitle {
-    padding-top: 12vh;
+    
     color: 'black';
     text-align: center;
 }
-
 
 

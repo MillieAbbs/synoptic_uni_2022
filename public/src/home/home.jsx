@@ -13,13 +13,15 @@ import Typography from '@material-ui/core/Typography';
 const Home = () => {
 
 	return (
-		<div className="background">
-			<NavBar />
+		<div>
+		<NavBar />
+		<div className="page">
 			<Container maxWidth="sm">
-					<Typography className="homeTitle" variant="h2">Cape York 111</Typography>
+				<Typography className="homeTitle" variant="h2">Cape York Help Desk</Typography>
 				<HomeInfo />
 			</Container>
 		<HomeButtons />
+		</div>
 		</div>
 	);
 };
