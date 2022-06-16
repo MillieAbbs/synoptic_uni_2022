@@ -16,7 +16,7 @@ const Home = () => {
 		<div>
 		<NavBar />
 		<div className="page">
-			<Container maxWidth="sm">
+			<Container maxWidth="md">
 				<Typography className="homeTitle" variant="h2">Cape York Help Desk</Typography>
 				<HomeInfo />
 			</Container>
