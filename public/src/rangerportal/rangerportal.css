@@ -1,0 +1,21 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+
+}  
+
+.pagev {
+
+    padding-top: 100px;
+    background-color: #FFFFFF;
+    height: 100vh
+}
+
+.homeTitle {
+
+    padding-top: 2rem;
+    color: 'black';
+    text-align: center;
+    
+}

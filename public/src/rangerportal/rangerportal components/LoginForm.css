@@ -1,0 +1,46 @@
+/* centers div */
+form {
+
+    text-align: center;
+
+}
+
+/* login div styling */
+.formInner {
+
+    padding: 50px;
+    background-color: #f72585;
+    border-radius: 5px;
+    display:  inline-block;
+    color: white;
+    box-shadow: 3px 3px #888888;
+    text-align: center;
+    
+}
+
+/* input fields */
+input {
+
+    border-radius: 3px;
+    border-width: 0px;
+    height: 4vh;
+    margin-bottom: 2vh;
+    min-width: 25vw;
+
+}
+
+
+
+#submit {
+
+    height: 5vh;
+    min-width: 8.5vh;
+    font-size: large;
+    
+}
+
+#username {
+
+    margin-right: 0.2vh;
+
+}
