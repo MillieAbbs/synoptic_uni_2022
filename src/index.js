@@ -67,7 +67,7 @@ app.get('/place/lat/:lat/long/:long/keyword/:keyword', (req, res) => {
         req.params.long +
         "&rankby=distance&type=" +
         req.params.keyword +
-        "&key=AIzaSyD5znsUPPrtztE1KJcBRftdK444DyJyyDg";
+        "";
     console.log(URL)
 
     axios.get(URL)
